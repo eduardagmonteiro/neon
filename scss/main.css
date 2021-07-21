@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif; }
+
+img {
+  max-width: 100%;
+  display: block; }
+
+html {
+  font-size: 62.5%; }
+
+html,
+body {
+  overflow-x: hidden; }
+
+button {
+  background-color: transparent;
+  cursor: pointer; }
+
+.container {
+  width: 100%;
+  max-width: 124.6rem;
+  padding: 0 15px;
+  margin: 0 auto; }
+
+h1 {
+  font-weight: 600;
+  font-size: 6.4rem; }
+
+h2 {
+  font-weight: bold;
+  font-size: 4rem; }
+
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  line-height: 112%;
+  letter-spacing: -1px;
+  color: #4e4b59; }
+
+h3,
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: #4e4b59;
+  letter-spacing: -0.5px; }
+
+h3 {
+  font-size: 2.4rem;
+  line-height: 150%; }
+
+h4 {
+  font-size: 2rem;
+  line-height: 112%; }
+
+.card-depoimentos {
+  width: 100%;
+  max-width: 38.4rem;
+  height: 20.9rem;
+  background-color: rgba(241, 240, 245, 0.55);
+  border-radius: 0.8rem;
+  padding: 3.7rem 3.2rem 2.3rem 3.2rem; }
+  .card-depoimentos .user {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.1rem; }
+    .card-depoimentos .user strong {
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-size: 1.8rem;
+      line-height: 112%;
+      letter-spacing: -1px;
+      color: #4e4b59; }
+  .card-depoimentos p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    color: #5f5c6b; }
+
+.btn-primary,
+.btn-secundary {
+  font-family: "Poppins" sans-serif;
+  display: inline-block;
+  padding: 0 2.6rem;
+  border-radius: 12.2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 4.8rem; }
+
+.btn-primary {
+  background-color: #ffc800;
+  color: #855b35;
+  transition: background-color 0.3s; }
+  .btn-primary:hover {
+    background-color: #ffdc5c; }
+
+.btn-secundary {
+  border: 1px solid #00a5f0;
+  background-color: transparent;
+  color: #00a5f0;
+  transition: all 0.3s; }
+  .btn-secundary:hover {
+    background-color: #00a5f0;
+    color: #ffffff; }
+  .btn-secundary.white {
+    border: 1px solid white;
+    color: white; }
+    .btn-secundary.white:hover {
+      background-color: white;
+      color: #00d7d7; }
+
+/*# sourceMappingURL=main.css.map */
