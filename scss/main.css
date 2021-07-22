@@ -385,4 +385,62 @@ header {
   .s-depoimentos .slide-depoimentos {
     overflow: hidden; }
 
+.s-conta-digital {
+  padding-top: 12.7rem;
+  padding-bottom: 8.5rem; }
+  .s-conta-digital .container {
+    display: flex;
+    align-items: center; }
+  .s-conta-digital .text {
+    max-width: 54.2rem; }
+    .s-conta-digital .text h2 {
+      color: #33303e;
+      margin-bottom: 4.5rem; }
+      .s-conta-digital .text h2 span {
+        display: block;
+        color: rgba(198, 197, 206, 0.8);
+        margin-bottom: 0.9rem; }
+    .s-conta-digital .text ul {
+      margin-bottom: 6.1rem; }
+      .s-conta-digital .text ul li {
+        display: flex;
+        align-items: center; }
+        .s-conta-digital .text ul li:not(:last-child) {
+          margin-bottom: 4.5rem; }
+        .s-conta-digital .text ul li .icon {
+          width: 4.5rem;
+          height: 4.5rem;
+          background-color: #00d7d7;
+          border-radius: 0.8rem;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+          margin-right: 2.6rem; }
+        .s-conta-digital .text ul li .info h4 {
+          margin-bottom: 0.4rem;
+          color: #5f5c6b; }
+        .s-conta-digital .text ul li .info p {
+          font-size: 1.8rem;
+          line-height: 150%;
+          color: #7a7786; }
+  .s-conta-digital .image {
+    position: relative;
+    width: 100%;
+    max-width: 71.2rem;
+    height: 59.8rem;
+    margin-right: -3.8rem;
+    left: 12.5rem; }
+    .s-conta-digital .image img {
+      position: absolute; }
+      .s-conta-digital .image img.mockup-01 {
+        left: 0;
+        bottom: 4.7rem; }
+      .s-conta-digital .image img.mockup-02 {
+        top: 0.3rem;
+        left: 25.8rem; }
+      .s-conta-digital .image img.circle {
+        right: 0;
+        bottom: 0; }
+
 /*# sourceMappingURL=main.css.map */
