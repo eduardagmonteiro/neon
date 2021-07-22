@@ -358,4 +358,31 @@ header {
         margin-right: -3.1rem;
         margin-top: 4.7rem; }
 
+.s-depoimentos {
+  padding-top: 13.4rem; }
+  .s-depoimentos .top {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 4rem; }
+    .s-depoimentos .top h2 span {
+      display: block;
+      color: #c6c5ce;
+      margin-bottom: 1.4rem; }
+    .s-depoimentos .top .swiper-pagination {
+      position: relative; }
+      .s-depoimentos .top .swiper-pagination .swiper-pagination-bullet {
+        background: #ffc800;
+        opacity: 0.3;
+        border-radius: 12px;
+        transition: all 0.3s; }
+        .s-depoimentos .top .swiper-pagination .swiper-pagination-bullet:not(:first-child) {
+          margin-left: 0.4rem; }
+        .s-depoimentos .top .swiper-pagination .swiper-pagination-bullet-active {
+          opacity: 1;
+          width: 1.72rem; }
+  .s-depoimentos .slide-depoimentos {
+    overflow: hidden; }
+
 /*# sourceMappingURL=main.css.map */
