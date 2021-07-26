@@ -147,6 +147,26 @@ header {
         transition: color 0.3s; }
         header nav ul li a:hover {
           color: #ffc800; }
+  header .btn-mobile {
+    display: none;
+    margin-left: 4rem; }
+  @media (max-width: 1085px) {
+    header nav ul {
+      margin-right: 3rem; }
+      header nav ul li:not(:first-child) {
+        margin-right: 2.5rem; } }
+  @media (max-width: 1090px) {
+    header .logo {
+      max-width: 10.8rem; }
+    header nav ul {
+      display: none; }
+    header .btn-mobile {
+      display: block; } }
+  @media (max-width: 480px) {
+    header {
+      height: 7.3rem; }
+      header nav .btn-secundary {
+        display: none; } }
 
 footer {
   background-color: #0073ce;
