@@ -8,6 +8,17 @@ h2 {
   font-size: 4rem;
 }
 
+h1 {
+  font-weight: 600;
+  font-size: 6.4rem;
+  @include responsive(1050px) {
+    font-size: 5.2rem;
+  }
+  @include responsive(991px) {
+    font-size: 4.8rem;
+  }
+}
+
 h1,
 h2 {
   font-family: "Poppins", sans-serif;
