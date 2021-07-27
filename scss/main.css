@@ -283,6 +283,72 @@ footer {
       line-height: 150%;
       color: white;
       opacity: 0.8; }
+  @media (max-width: 991px) {
+    footer .main {
+      width: 100%;
+      position: relative;
+      flex-direction: column;
+      align-items: flex-start; }
+      footer .main nav {
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start; }
+        footer .main nav .item {
+          width: 33%;
+          margin-bottom: 3rem; }
+      footer .main .btns {
+        position: absolute;
+        bottom: 14rem;
+        right: 0; }
+    footer .msg {
+      flex-direction: column;
+      align-items: center; } }
+  @media (max-width: 600px) {
+    footer .main {
+      margin-bottom: 3rem; }
+      footer .main .btns {
+        max-width: 25rem; }
+        footer .main .btns button img {
+          display: none; }
+        footer .main .btns button .info {
+          margin-left: 0; } }
+  @media (max-width: 480px) {
+    footer .top {
+      flex-direction: column;
+      align-items: center;
+      padding-bottom: 4.3rem;
+      margin-bottom: 5.2rem; }
+      footer .top .share {
+        flex-direction: column;
+        margin-top: 3.2rem; }
+        footer .top .share ul {
+          margin-left: 0;
+          margin-top: 2rem; }
+    footer .main nav {
+      width: 100%; }
+      footer .main nav .item {
+        width: 50%;
+        margin-bottom: 5.3rem;
+        justify-content: space-between; }
+        footer .main nav .item strong {
+          font-size: 1.8rem;
+          font-weight: 600; }
+        footer .main nav .item ul li a {
+          font-size: 1.6rem; }
+    footer .main .btns {
+      bottom: 0;
+      position: relative;
+      max-width: 100%; }
+      footer .main .btns button {
+        padding-left: 0;
+        justify-content: center; }
+        footer .main .btns button .info strong,
+        footer .main .btns button .info span {
+          display: block;
+          text-align: center; }
+    footer .msg p {
+      text-align: center;
+      margin-left: 0; } }
 
 .s-hero {
   width: 100%;
