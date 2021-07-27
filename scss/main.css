@@ -416,12 +416,14 @@ footer {
         top: 4.1rem;
         left: 0;
         z-index: 2;
-        max-width: 43.5rem; }
+        max-width: 43.5rem;
+        animation: floating 8s infinite; }
       .s-hero .area-image .image .card-back {
         bottom: 4.6rem;
         right: 8.6rem;
         z-index: 1;
-        max-width: 35.2rem; }
+        max-width: 35.2rem;
+        animation: floating 6s infinite; }
       .s-hero .area-image .image .circle {
         top: 2.8rem;
         right: 4.3rem;
@@ -978,5 +980,13 @@ footer {
           left: initial;
           right: 0;
           top: 0; } }
+
+@keyframes floating {
+  0% {
+    transform: translateY(0); }
+  66% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0); } }
 
 /*# sourceMappingURL=main.css.map */
