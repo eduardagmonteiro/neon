@@ -897,13 +897,16 @@ footer {
       position: absolute; }
       .s-conta-digital .image img.mockup-01 {
         left: 0;
-        bottom: 4.7rem; }
+        bottom: 4.7rem;
+        z-index: 2; }
       .s-conta-digital .image img.mockup-02 {
         top: 0.3rem;
-        left: 25.8rem; }
+        left: 25.8rem;
+        z-index: 2; }
       .s-conta-digital .image img.circle {
         right: 0;
-        bottom: 0; }
+        bottom: 0;
+        z-index: 0; }
   @media (max-width: 1200px) {
     .s-conta-digital .container {
       flex-direction: column;

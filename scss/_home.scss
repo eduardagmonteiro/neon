@@ -728,14 +728,17 @@
       &.mockup-01 {
         left: 0;
         bottom: 4.7rem;
+        z-index: 2;
       }
       &.mockup-02 {
         top: 0.3rem;
         left: 25.8rem;
+        z-index: 2;
       }
       &.circle {
         right: 0;
         bottom: 0;
+        z-index: 0;
       }
     }
   }
